@@ -1,4 +1,6 @@
-name: End-to-end testson: [push]
+name: E2E Parallel Cypress Tests
+
+on: [push]
 
 jobs:
   test:
