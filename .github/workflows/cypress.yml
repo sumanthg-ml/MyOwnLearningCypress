@@ -27,7 +27,7 @@ jobs:
           browser: chrome
           record: false
           spec: |
-            cypress/playground/elements_page.cy.js
+            cypress/e2e/playground/elements_page.cy.js
         env:
           # pass the Cypress Cloud record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
